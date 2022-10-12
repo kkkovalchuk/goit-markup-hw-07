@@ -1,0 +1,39 @@
+
+.modal__accept {
+    margin-left: 14px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.modal__checkbox {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $primary-text-color;
+    
+}
+
+.modal__form-link {
+    color: $accent-color;
+    text-decoration: underline;
+}
+
+
+.modal__checkbox-icon {
+    height: 15px;
+    width: 16px;
+
+    border: 2px solid $title-text-color;
+    border-radius: 3px;
+
+    display: inline-flex;
+    align-items: center;
+
+    .modal__input-icon:checked + & {
+        background-color: $accent-color;
+        border-color: $accent-color;
+    }
+}
+
+
+

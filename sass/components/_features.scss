@@ -1,0 +1,47 @@
+.features {
+    padding-top: 94px;
+    padding-bottom: 47px;
+
+    &__card-link {
+        width: 270px;
+        height: 120px;
+        background-color: $background-color;
+        border-radius: 4px;
+        @extend %flex_center;
+        margin-bottom: 30px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__item {
+        flex-basis: calc((100% - 3 * 30px) / 4);
+    }
+
+    &__title {
+        color: $title-text-color;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+
+    &__text {
+        color: $primary-text-color;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+}
+
+
+
+
+
+

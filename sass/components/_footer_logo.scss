@@ -1,0 +1,15 @@
+
+.footer__logo {
+    display: inline-block;
+    color: $primary-white-title-color;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+
+    &-part {
+        color: $accent-color;
+    }
+}
